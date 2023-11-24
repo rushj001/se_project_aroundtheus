@@ -49,6 +49,7 @@
   grid-area: title;
   margin: 0;
   text-wrap: nowrap;
+  
 }
 .profile__description {
   font-family: "Inter-Medium";
@@ -101,8 +102,29 @@
 }
 @media screen and (max-width: 320px) {
   .profile__edit-button {
+    height: 18px;
+    width: 18px;
+    margin-left: 30.25;
+    display: inline-block;
   }
   .profile__add-button {
     width: 282px;
+    height: 50px;
+    margin-top: 30px;
   }
+  .profile__image {
+    margin-top: 38px;
+    margin-left: 78px;
+    margin-right: 72.5px;
+}
+.profile__title{
+  display: inline-block;
+
+}
+.profile__image{
+  margin-top: 38.25px;
+  margin-left: 78.5px;
+  margin-right: 72.75px;
+}
+
 }
