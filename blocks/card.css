@@ -8,10 +8,12 @@
 }
 .card__image {
   width: 282px;
-  width: 282px;
+  height: 282px;
 }
 .card__description {
-  font-family: Inter;
+  font-family: 'Inter-Black';
+  font-weight: 900;
+
   display: flex;
   background-color: white;
   color: black;
@@ -30,7 +32,13 @@
   height: 18px;
   border: none;
 }
+.card__like-button:hover{
+cursor: pointer;
+}
+
 .card__title {
+  font-family: 'Inter-Black';
+  font-weight: 900;
   max-width: 200px;
   text-overflow: ellipsis;
   white-space: nowrap;
