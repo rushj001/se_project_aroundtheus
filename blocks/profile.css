@@ -48,8 +48,10 @@
   font-weight: 500;
   grid-area: title;
   margin: 0;
-  text-wrap: nowrap;
-  
+  text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+max-width: 100%;  
 }
 .profile__description {
   font-family: "Inter-Medium";
