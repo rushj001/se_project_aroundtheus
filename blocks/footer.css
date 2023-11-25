@@ -19,9 +19,7 @@
   }
 }
 @media screen and (max-width: 320px) {
-.footer{
-  margin-right: 19px;
-  margin-left: 19px;
-
-}
+  .footer__copyright {
+    padding-left: 19px;
+  }
 }
