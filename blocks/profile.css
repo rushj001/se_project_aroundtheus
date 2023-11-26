@@ -44,7 +44,7 @@
 .profile__title {
   font-family: "Inter-Medium";
   font-size: 42px;
-  line-height: 48px;
+  line-height: 26.6px;
   font-weight: 500;
   grid-area: title;
   margin: 0;
@@ -98,6 +98,9 @@
   }
   .profile__edit {
     display: flex;
+  }
+  .profile__edit-button {
+    margin-right: 25px;
   }
 }
 @media screen and (max-width: 320px) {
