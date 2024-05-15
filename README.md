@@ -24,3 +24,6 @@ https://tripleten.com/trainer/web/lesson/5de5bb2f-93ca-419e-a0a0-10376b4712bc/?f
 1. Project name: Around the US
 2. Description and functionality: It is basically a travel blog and places for me to visit. It utilizes various functionlities like social interaction where users can like photos. Users can also follow other users. It has a responsive design not only on desktop but also mobile and tablet.
 3. Technologies used: This website mainly utilzies HTML5 and complex CSS3. We have utilized flexbox and grid to make the website responsive. We have also used media queries to make the website responsive. We have also utilized BEM methodolgies for organizing our code.
+
+
+*** Link to record the video is not working for me, it says I dont have access to it ***

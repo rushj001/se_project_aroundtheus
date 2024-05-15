@@ -135,5 +135,6 @@
   }
   .profile__description {
     max-width: 90%;
+    margin-top: -15px;
   }
 }
