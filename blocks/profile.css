@@ -119,6 +119,7 @@
     width: 18px;
     display: inline-block;
     background-size: 18px 18px;
+    margin: 5px;
   }
   .profile__add-button {
     width: 282px;
@@ -136,5 +137,7 @@
   .profile__description {
     max-width: 90%;
     margin-top: -15px;
+    font-size: 14px;
+    line-height: 18px;
   }
 }
