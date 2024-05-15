@@ -23,6 +23,7 @@
 
 .profile__edit-button:hover {
   cursor: pointer;
+  opacity: 60%;
 }
 
 .profile__add-button {
@@ -36,6 +37,7 @@
 }
 .profile__add-button:hover {
   cursor: pointer;
+  opacity:  60%;
 }
 
 .profile__title {
@@ -79,9 +81,6 @@
   .profile__title {
     font-size: 30px;
   }
-  .profile__add-button {
-    margin-top: -15px;
-  }
 }
 @media screen and (max-width: 620px) {
   .profile {
@@ -111,9 +110,6 @@
     font-size: 22px;
     line-height: 26.6px;
     padding-left: 43px;
-  }
-  .profile__edit-button {
-    padding-right: 25px;
   }
 }
 
