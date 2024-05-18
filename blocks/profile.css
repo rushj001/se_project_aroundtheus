@@ -71,7 +71,7 @@
   background-position: center;
   margin-right: 24px;
 }
-.profile__items{
+.profile__items {
   display: flex;
   align-items: center;
 }
@@ -114,9 +114,10 @@
     font-size: 22px;
     line-height: 26.6px;
     padding-left: 43px;
+    min-width: 201px;
+    max-width: 222px;
   }
 }
-
 @media screen and (max-width: 320px) {
   .profile__edit-button {
     height: 18px;
@@ -129,11 +130,6 @@
     width: 282px;
     margin-top: 30px;
   }
-
-  .profile__title {
-    display: inline-block;
-  }
-
   .profile__image {
     margin: 0;
     margin-bottom: 30px;
@@ -144,22 +140,3 @@
     line-height: 17px;
   }
 }
-
-
-
-/*.aaa {
-  background: pink;
-}
-
-@media screen and (max-width: 879px) {
-  .aaa {
-    background: magenta;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  .aaa {
-    background: yellow;
-  }
-}
-/*
