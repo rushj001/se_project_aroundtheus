@@ -26,4 +26,4 @@ https://tripleten.com/trainer/web/lesson/5de5bb2f-93ca-419e-a0a0-10376b4712bc/?f
 3. Technologies used: This website mainly utilzies HTML5 and complex CSS3. We have utilized flexbox and grid to make the website responsive. We have also used media queries to make the website responsive. We have also utilized BEM methodolgies for organizing our code.
 
 
-*** Link to record the video is not working for me, it says I dont have access to it ***
+https://rushj001.github.io/se_project_aroundtheus/
