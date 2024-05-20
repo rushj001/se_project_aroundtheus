@@ -17,7 +17,7 @@
   height: 24px;
   width: 24px;
   border: none;
-  margin-left: 16px;
+  margin-left: 10px;
   padding: 0px 0px 26px 26px;
 }
 
@@ -60,8 +60,10 @@
   font-weight: 400;
   grid-area: description;
   margin: 0;
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  width: 100%;
 }
 .profile__image {
   height: 120px;
@@ -114,7 +116,6 @@
     font-size: 22px;
     line-height: 26.6px;
     padding-left: 43px;
-    min-width: 201px;
     max-width: 222px;
   }
 }
@@ -124,7 +125,6 @@
     width: 18px;
     display: inline-block;
     background-size: 18px 18px;
-    margin: 5px;
   }
   .profile__add-button {
     width: 282px;
@@ -138,5 +138,20 @@
     max-width: 90%;
     font-size: 14px;
     line-height: 17px;
+  }
+  .profile__title {
+    font-size: 18px;
+    line-height: 26.6px;
+    padding-left: 0;
+  }
+  .profile__description {
+    max-width: 90%;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .profile__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
