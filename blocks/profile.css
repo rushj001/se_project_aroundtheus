@@ -140,9 +140,10 @@
     line-height: 17px;
   }
   .profile__title {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 26.6px;
     padding-left: 0;
+
   }
   .profile__description {
     max-width: 90%;
